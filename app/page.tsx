@@ -5,7 +5,7 @@ import { Education } from '@/components/portfolio/education'
 import { Skills } from '@/components/portfolio/skills'
 import { Certifications } from '@/components/portfolio/certifications'
 import { Research } from '@/components/portfolio/research'
-import { Involvement } from '@/components/portfolio/involvement'
+import { Experience } from '@/components/portfolio/experience'
 import { Contact } from '@/components/portfolio/contact'
 
 export default function Page() {
@@ -18,7 +18,7 @@ export default function Page() {
       <Skills />
       <Certifications />
       <Research />
-      <Involvement />
+      <Experience />
       <Contact />
     </main>
   )

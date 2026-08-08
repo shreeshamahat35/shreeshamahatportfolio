@@ -119,7 +119,14 @@ export const researchInterests = [
   },
 ]
 
-export const involvement = [
+export const experience = [
+  {
+    role: 'Data Fellow',
+    organization: 'DataCamp',
+    description:
+      'Selected for DataCamp’s apprenticeship-style Data Fellowship, developing practical data skills through structured learning, hands-on projects, mentorship, and portfolio-focused work. The experience is helping me turn concepts in data analysis, Python, SQL, and visualization into work that can create real-world impact.',
+    period: 'Aug 2026 — Present',
+  },
   {
     role: 'Secretary',
     organization: 'BIM KIST Club',
@@ -135,6 +142,6 @@ export const navLinks = [
   { label: 'Skills', href: '#skills' },
   { label: 'Certifications', href: '#certifications' },
   { label: 'Research', href: '#research' },
-  { label: 'Involvement', href: '#involvement' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
 ]
