@@ -48,8 +48,11 @@ export function Hero() {
           <div className="absolute inset-1/2 size-24 -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-primary/50 bg-primary/10 shadow-[0_0_70px_-15px_var(--primary)] backdrop-blur-sm">
             <div className="flex size-full items-center justify-center"><Bot className="size-10 text-primary" /></div>
           </div>
-          <div className="absolute left-[9%] top-[28%] flex size-12 items-center justify-center rounded-xl border border-border bg-card text-primary shadow-lg"><Database className="size-5" /></div>
-          <div className="absolute bottom-[18%] right-[12%] flex size-12 items-center justify-center rounded-xl border border-border bg-card text-primary shadow-lg"><Sparkles className="size-5" /></div>
+          <div className="absolute inset-7 animate-orbit-slow rounded-full border border-dashed border-primary/15" />
+          <div className="absolute left-[9%] top-[28%] flex size-12 animate-icon-drift rounded-xl border border-border bg-card text-primary shadow-lg"><Database className="size-5" /></div>
+          <div className="absolute bottom-[18%] right-[12%] flex size-12 animate-icon-drift-reverse rounded-xl border border-border bg-card text-primary shadow-lg"><Sparkles className="size-5" /></div>
+          <div className="absolute right-[8%] top-[16%] flex size-10 animate-icon-drift-delay items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-primary shadow-lg"><span className="size-2 animate-pulse rounded-full bg-primary" /></div>
+          <div className="absolute bottom-[30%] left-[15%] flex size-8 animate-icon-drift-delay items-center justify-center rounded-full border border-primary/20 bg-card text-primary"><span className="size-1.5 rounded-full bg-primary" /></div>
           <div className="absolute left-1/2 top-0 h-1/2 w-px origin-bottom animate-pulse-line bg-gradient-to-t from-primary/70 to-transparent" />
           <div className="absolute bottom-5 left-1/2 flex -translate-x-1/2 items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground"><span className="size-1.5 rounded-full bg-primary" /> Intelligence / Analytics</div>
         </div>
