@@ -2,16 +2,16 @@
 
 export const profile = {
   name: 'Shreesha Mahat',
-  role: 'Aspiring Data Scientist',
-  focus: ['Data Science', 'AI', 'Machine Learning', 'AI Research'],
+  role: 'AI & Business Analytics Learner',
+  focus: ['Artificial Intelligence', 'Business Analytics', 'Machine Learning', 'Decision Intelligence'],
   location: 'Kathmandu, Nepal',
   available: true,
   availability: 'Based in Kathmandu, Nepal · Open to remote work',
   intro:
-    'I am an undergraduate student pursuing a Bachelor in Information Management (BIM) — a blend of information technology and management. Currently in my 6th semester, I am passionate about turning data into insight and exploring how artificial intelligence can solve real problems.',
+    'I am an undergraduate student pursuing a Bachelor in Information Management (BIM) — a blend of information technology and management. Currently in my 6th semester, I am interested in using artificial intelligence and business analytics to understand problems, support better decisions, and create practical solutions.',
   bio: [
-    'My interests sit at the intersection of data science, machine learning, and AI research. I enjoy studying how models learn, reading research, and building the foundational skills that will let me contribute to the field.',
-    'While I am early in my journey and building experience through hands-on training, I am focused, curious, and committed to growing into a capable researcher and practitioner.',
+    'My interests sit at the intersection of artificial intelligence, business analytics, machine learning, and data-driven decision-making. I enjoy exploring how intelligent systems can turn complex information into clear insights that organizations can act on.',
+    'Through coursework, research, and hands-on learning, I am building practical skills in Python, SQL, data analysis, visualization, and AI. I am early in my journey, but curious, thoughtful, and committed to developing solutions that are both useful and responsible.',
   ],
 }
 
@@ -48,8 +48,8 @@ export const skills = [
     items: ['Python', 'SQL', 'Artificial Intelligence', 'Machine Learning', 'Programming'],
   },
   {
-    category: 'Data & Research',
-    items: ['Data Science', 'Research', 'Data Analysis', 'Problem Solving'],
+    category: 'Analytics & Research',
+    items: ['Business Analytics', 'Data Analysis', 'Data Visualization', 'Research', 'Problem Solving'],
   },
   {
     category: 'Soft Skills',
@@ -98,24 +98,24 @@ export const certifications = [
 
 export const researchInterests = [
   {
-    title: 'Machine Learning',
+    title: 'Business Analytics',
     description:
-      'Understanding how models learn from data — from classical algorithms to modern deep learning approaches.',
+      'Using data, metrics, and clear storytelling to understand business performance and support better strategic decisions.',
   },
   {
     title: 'Artificial Intelligence',
     description:
-      'Exploring intelligent systems, their capabilities, and their responsible application to real-world problems.',
+      'Exploring intelligent systems and practical AI applications that help people and organizations solve meaningful problems.',
   },
   {
-    title: 'Data Science',
+    title: 'Decision Intelligence',
     description:
-      'Extracting insight from data through analysis, visualization, and statistical reasoning.',
+      'Learning how analytics, machine learning, and business context can work together to improve the quality of decisions.',
   },
   {
-    title: 'AI Research',
+    title: 'Responsible AI',
     description:
-      'Following the frontier of AI research and building the skills to one day contribute to it.',
+      'Developing an interest in transparent, fair, and human-centered AI that is useful in real-world settings.',
   },
 ]
 
@@ -124,7 +124,7 @@ export const experience = [
     role: 'Data Fellow',
     organization: 'DataCamp',
     description:
-      'Selected for DataCamp’s apprenticeship-style Data Fellowship, developing practical data skills through structured learning, hands-on projects, mentorship, and portfolio-focused work. The experience is helping me turn concepts in data analysis, Python, SQL, and visualization into work that can create real-world impact.',
+      'Selected for DataCamp’s apprenticeship-style Data Fellowship, developing practical skills through structured learning, hands-on projects, mentorship, and portfolio-focused work. The experience is helping me connect Python, SQL, analytics, visualization, and AI concepts to business questions and real-world decision-making.',
     period: 'Aug 2026 — Present',
   },
   {

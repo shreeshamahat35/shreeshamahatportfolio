@@ -36,11 +36,11 @@ export function Contact() {
         <div className="grid gap-12 md:grid-cols-[1fr_1fr] md:gap-16">
           <div className="flex flex-col justify-center">
             <p className="font-display text-3xl font-bold leading-tight tracking-tight text-balance sm:text-4xl">
-              Let&apos;s build something with data.
+              Let&apos;s turn ideas into intelligent decisions.
             </p>
             <p className="mt-4 max-w-md leading-relaxed text-muted-foreground text-pretty">
               I&apos;m always open to learning opportunities, collaborations, and
-              conversations about AI and data science.
+              conversations about AI, business analytics, and data-driven problem solving.
             </p>
             <p className="mt-6 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-primary">
               <span className="inline-flex size-2 rounded-full bg-primary" />
