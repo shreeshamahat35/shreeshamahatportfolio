@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Portfolio — Data Science & AI',
+  title: 'Portfolio — AI & Business Analytics',
   description:
-    'Personal portfolio of an Information Management undergraduate focused on Data Science, AI, ML, and AI research.',
+    'Personal portfolio of an Information Management undergraduate exploring Artificial Intelligence, Business Analytics, Machine Learning, and data-driven decision-making.',
   generator: 'v0.app',
 }
 
