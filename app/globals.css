@@ -108,8 +108,29 @@ body {
   50% { opacity: 0.8; transform: scaleX(1); }
 }
 
+@keyframes orbit-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes icon-drift {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  35% { transform: translate3d(10px, -12px, 0) rotate(7deg); }
+  70% { transform: translate3d(-7px, 8px, 0) rotate(-5deg); }
+}
+
+@keyframes icon-drift-reverse {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  35% { transform: translate3d(-12px, 8px, 0) rotate(-7deg); }
+  70% { transform: translate3d(8px, -10px, 0) rotate(5deg); }
+}
+
 .animate-float-slow { animation: float-slow 6s ease-in-out infinite; }
 .animate-pulse-line { animation: pulse-line 3s ease-in-out infinite; }
+.animate-orbit-slow { animation: orbit-slow 18s linear infinite; }
+.animate-icon-drift { animation: icon-drift 7s ease-in-out infinite; }
+.animate-icon-drift-reverse { animation: icon-drift-reverse 8s ease-in-out infinite; }
+.animate-icon-drift-delay { animation: icon-drift 6s ease-in-out 900ms infinite; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
